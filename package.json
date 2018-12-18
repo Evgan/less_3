@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Evgan/less_3/issues"
   },
-  "homepage": "https://github.com/Evgan/less_3#readme"
+  "homepage": "https://github.com/Evgan/less_3#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
