@@ -1,0 +1,24 @@
+body{
+  background-color: red;
+}
+
+// переменные можно создать и использовать в разным местах ФАЙЛА
+@font-size: 20px;
+
+.b-test{
+  margin-top: 50px;
+  padding: 30px;
+  background: aqua;
+
+  &__heading{
+    font-size: @font-size;
+    color: red;
+
+    // наследование
+    & > div {
+      width: 40px;
+      height: 60px;
+      background-color: blueviolet;
+    }
+  }
+}
